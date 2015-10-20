@@ -1,0 +1,23 @@
+{
+  "name": "minors/saves-images",
+  "description": "Trait for saving images in Laravel",
+  "keywords": ["laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Kinyakin",
+      "email": "1@grep.su"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/contracts": "~5.1",
+    "intervention/image": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Minors\\SavesImages\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
